@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    background-color: olivedrab;
+
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(196, 184, 16);
+}
+.navbar-left {
+    padding-left: 15px;
+
+}
+.navbar-right {
+    padding-right: 15px;
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+}
+.nc{
+    color: antiquewhite;
+}
+.page-h1 {
+    color: chartreuse;
+}
+
+.nc{
+    padding: 9px;
+}
+.page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 80vh;
+    font-family: Bradley Hand, cursive;
+     padding: 0.5rem;
+}
+.page-left { 
+    width: 70vw;
+    font-size: 23px;
+}
+.photo-right {
+    width: 26.50vw;
+}
+.mg {
+    height: 350px;
+}
+
+.skills-section {
+    padding: 10px;
+    text-align: center;
+
+}
+
+.skills-heading {
+    font-family: 'Ubuntu', sans-serif ;
+    color: chartreuse;
+    font-size: 31px;
+    text-align: center;
+}
+.html-style {
+    font-size: 18px;
+    font-style: oblique; 
+
+}
+
+.skills-cont {
+    display: flex;
+    flex-direction: row;
+
+}
+.skill-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 170vh;
+    align-items: center;
+}
+.skill-section-space {
+    border: 5px teal solid ;
+    padding: 15px;
+    align-items: center;
+}
+
+.project-section {
+    padding: 10px;
+    text-align: center;
+}
+
+.proj-h1 {
+    color: chartreuse;
+    font-family: 'Ubuntu', sans-serif;
+}
+.proj-sub-cont{
+    text-align: center;
+    margin: 0 auto; /* Center the element horizontally */
+    width: 500px;
+    height: 150px;
+    border: 3px solid rgb(38, 238, 38); /* 2px black border */
+    box-sizing: border-box; /* Include border in element's dimensions */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact {
+   text-align: left; 
+   padding: 7px;
+}
+
+.contact-info {
+    font-size: 1.20rem;
+}
+
+.social-icons {
+    float: right;
+    text-align: right;
+    padding-right: 100px;
+    
+}
+
+.social-icon {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-icon-img{
+    padding: 5px;
+    height:45px;
+}
+.bottom-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.bt-color{
+    color: lightgray;
+}
+
+.rights {
+    text-align: center;
+    font-size: 20px;
+}

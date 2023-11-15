@@ -184,6 +184,7 @@ body {
     .proj-sub-cont {
         width: auto;
         padding: 15px;
+        text-align: center;
     }
 
     .contact {
@@ -240,6 +241,7 @@ body {
     .proj-sub-cont {
         width: auto;
         padding: 15px;
+        text-align: center;
     }
 
     .contact {
@@ -300,8 +302,8 @@ body {
     .proj-sub-cont {
         width: 500px;
         height: 150px;
-        margin: 0;
-        padding: 0;
+        text-align: center;
+        padding: 15px;
     }
 
     .contact {

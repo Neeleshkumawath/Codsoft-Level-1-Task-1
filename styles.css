@@ -144,3 +144,60 @@ body {
     text-align: center;
     font-size: 20px;
 }
+
+@media only screen and (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar-right {
+        padding: 15px;
+        justify-content: center;
+    }
+
+    .page {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .page-left,
+    .photo-right {
+        width: 100%;
+    }
+
+    .mg {
+        height: auto;
+        max-width: 100%;
+    }
+
+    .skills-cont,
+    .skill-row {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .skill-section-space {
+        margin-bottom: 15px;
+    }
+
+    .proj-sub-cont {
+        width: auto;
+        padding: 15px;
+    }
+
+    .contact {
+        text-align: center;
+    }
+
+    .social-icons {
+        text-align: center;
+        padding-right: 0;
+        margin-top: 20px;
+    }
+
+    .bottom-bar {
+        flex-direction: column;
+        text-align: center;
+    }
+}
